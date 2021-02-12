@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
             UsersSeeder::class,
             PlansSeeder::class,
             UserPlansSeeder::class,
+            StudentsSeeder::class,
         ]);
     }
 }

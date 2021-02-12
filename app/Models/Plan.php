@@ -13,6 +13,6 @@ class Plan extends Model
 
     public function userPlans()
     {
-        return $this->hasMany(Plan::class, 'plan_id', 'id');
+        return $this->hasMany(UserPlan::class, 'plan_id', 'id');
     }
 }
