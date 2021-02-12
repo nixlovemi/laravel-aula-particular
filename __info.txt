@@ -1,0 +1,4 @@
+* Criar model, controller e database: php artisan make:model Models/User -a
+* Gerar key pro artisan: php artisan key:generate
+* Rodar o migration: php artisan migrate:fresh --seed
+* Criar form request: php artisan make:request LoginRequest
